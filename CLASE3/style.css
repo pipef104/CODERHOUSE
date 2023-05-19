@@ -1,0 +1,40 @@
+h2,h3{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+    color: blue;
+    text-align: justify;
+}
+
+.video{ 
+    display: flex;
+    justify-content: center;
+}
+
+div p{
+    color: blueviolet;
+}
+
+#green{
+    color: green;
+}
+
+.subrayado{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h1{
+    color: #223421 !important;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.section1 p{
+    color: purple;
+    text-align: justify;
+}
