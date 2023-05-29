@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("./images/portada.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.header {
+  background-color: rgba(19, 22, 26, 0.4);
+}
+
+.header__container {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.logo {
+}
+
+.logo__img {
+  display: block;
+  height: 70px;
+  transition: all 0.3s;
+}
+
+.logo__img:hover {
+  transform: scale(1.2);
+}
+
+.nav {
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 40px;
+}
+
+.nav_item {
+}
+
+.nav__link {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.75);
+  transition: all 0.4s;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  transform: scale(1.1);
+  color: #51d5fd;
+  text-decoration: underline;
+}
+
+.main__h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+  color: #ffffff;
+  font-size: 3.7em;
+  font-weight: 900;
+  font-family: "Archivo Black", sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+}
