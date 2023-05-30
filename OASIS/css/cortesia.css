@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("../images/portada.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.form-register {
+  width: 400px;
+  transition: all 0.4s;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.controls{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #51d5fd;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+
+.form-register .btn {
+    width: 100%;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    background-color: #51d5fd;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+  }
