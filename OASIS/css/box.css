@@ -58,7 +58,6 @@ html {
 
 body {
   font-size: 1.6rem;
-  /* background: var(--bg); */
   background-image: url("/OASIS/images/portada.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -154,7 +153,7 @@ body {
   color: var(--white);
 }
 
-.food-rating {
+.act-rating {
   padding-top: 1rem;
   display: flex;
   gap: 1rem;

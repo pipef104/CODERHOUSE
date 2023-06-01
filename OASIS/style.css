@@ -45,7 +45,8 @@ body {
   transition: all 0.3s;
 }
 
-.logo__img:hover {
+.logo__img:hover,
+.social_foo:hover {
   transform: scale(1.2);
 }
 
@@ -86,17 +87,41 @@ body {
 }
 
 footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:70px;
+  width:100%;
+
   background-color: black;
-  position: absolute;
+  /* position: absolute;
   bottom: 0;
   width: 100%;
-  height: 70px;
+  height: 70px; */
   color: white;
 }
 
-.pie-pagina{
+.pie-pagina {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+}
+
+h2 {
+  background-color: orange;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.section {
+  background-color: #333;
+  width: 100%;
+  height: 700px;
+}
+.main__section1 {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff00;
 }

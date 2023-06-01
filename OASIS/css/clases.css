@@ -8,17 +8,23 @@
   box-sizing: border-box;
 }
 
-
 body {
   margin: 0;
   height: calc(100vh - 8em);
   font-family: var(--font);
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
+  background-image: url("/OASIS/images/portada.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  transition: all 0.5s ease-in-out;
 }
 
 h1 {
   text-align: center;
   margin: 1.5em;
+  color: white;
 }
 
 img {
