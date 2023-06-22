@@ -33,7 +33,6 @@ body {
   top: 0;
 }
 
-
 .header__container {
   height: 80px;
   display: flex;
@@ -60,7 +59,6 @@ body {
   column-gap: 40px;
 }
 
-
 .nav__link {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.75);
@@ -85,8 +83,7 @@ body {
   justify-content: center;
 }
 
-
-.sec1{
+.sec1 {
   height: 120vh;
 }
 
@@ -109,7 +106,7 @@ body {
   height: 100%;
 }
 
-.elementor_sec2--e-con-inner{
+.elementor_sec2--e-con-inner {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,6 +122,18 @@ body {
   color: var(--main-font);
 }
 
+.elementor_sec2--e-con-inner h6 span {
+  font-weight: 400;
+  line-height: 1em;
+}
+
+.elementor_sec2--e-con-inner span {
+  font-family: "gotham";
+  font-size: 66px;
+  font-weight: 900;
+  font-style: italic;
+  color: #0099dd;
+}
 
 .elementor_sec2--wallpaper{
   
