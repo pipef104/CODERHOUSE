@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-font: #95F6FF;;
+  --primary_font:'Noto Sans', sans-serif;
+}
+
 ul {
   list-style: none;
 }
@@ -82,7 +87,7 @@ body {
 
 
 .sec1{
-  height: 100vh;
+  height: 120vh;
 }
 
 .sec1 {
@@ -92,20 +97,155 @@ body {
   background-position: center center;
 }
 
+.sec2{
+  background-image: url(./images/fondoLetra.png);
+}
+
 .elementor__sec2{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .elementor_sec2--e-con-inner{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 36px;
+  font-family: var(--primary_font);
+  gap: 20px;
+}
+
+.--e-con-inner2 h2{
+  font-family: var(--primary_font);
+  font-style: italic;
+  font-weight: bold;
+  color: var(--main-font);
 }
 
 
+.elementor_sec2--wallpaper{
+  
+}
+
+/******** sección de clases ********/
+/* Sec3 */
+.sec3{
+  font-family: var(--primary_font);
+  font-weight: bold;
+  font-size:xx-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.sec3-card{
+  width: 100%;
+  height: 80%;
+}
+
+/* h1 {
+  text-align: center;
+  margin: 1.5em;
+  color: white;
+}
+
+img {
+  width: 80%;
+  border-radius: 5%;
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  animation: carouselAnim 20s infinite alternate linear;
+}
+
+.entry {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 300px;
+  background: #fff;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
+  .items {
+    animation: carouselAnim 35s infinite alternate linear;
+  }
+  
+  @keyframes carouselAnim {
+    from {
+      transform: translate(0, 0);
+    }
+    to {
+      transform: translate(calc(-100% + (2 * 360px)));
+    }
+  }
+}
+
+.entry p {
+  text-align: center;
+  padding: 1em;
+}
+
+.name {
+  font-weight: bold;
+}
+
+@keyframes carouselAnim {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(calc(-100% + (5 * 345px)));
+  }
+}
+
+.container .faders {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+
+.faders .right,
+.faders .left {
+  background: linear-gradient(
+    to right,
+   
+  );
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  z-index: 200;
+}
+
+.right {
+  right: 0;
+  background: linear-gradient(
+    to left,
+   
+  );
+} */
+
+
+/* sección de pie pagina */
 footer {
   background-color: #000000;
   padding: 1em 0;
