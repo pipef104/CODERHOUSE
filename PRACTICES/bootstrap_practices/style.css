@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.icon img{
+    /* width: 50px; */
+    height: 70px;
+}
+
+nav{
+    background-color: rgba(19, 22, 26, 0.4);
+}
+
+.nav__link {
+    color: rgba(255, 255, 255, 0.75);
+    transition: all 0.4s;
+  }
+  
+  .nav__link:hover,
+  .nav__link:focus {
+    transform: scale(1.1);
+    color: #51d5fd;
+    text-decoration: underline;
+  }
+
+  .navbar-collapse{
+    justify-content: flex-end;
+  }
+
+  .sec {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sec1 {
+    height: 120vh;
+  }
+
+  .sec1 {
+    background-image: url("../../OASIS/images/portadaOasis.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .fix-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .col a{
+    font-size: 28px;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    color: #f1f1f1;
+  }
