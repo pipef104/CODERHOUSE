@@ -48,7 +48,7 @@ nav {
 }
 
 .c-item {
-  height: 480px;
+  height: 607px;
 }
 
 .c-img {
@@ -103,6 +103,15 @@ nav {
 }
 .second div {
   background-color:#E5BAE8;
+}
+
+.first-sp{
+  display: flex;
+  align-items: center;
+}
+
+.first-sp span{
+  display: block;
 }
 
 @keyframes text-animation {
