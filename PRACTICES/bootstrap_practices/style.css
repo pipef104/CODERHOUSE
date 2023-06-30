@@ -189,6 +189,58 @@ border-radius: 40px;
   }
 }
 
+
+.sec5{
+  /* display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20;
+  width: 700px; */
+  display: flex;
+  justify-content: space-around;
+  height: 700px;
+  background-image: url("../../OASIS/images/fondo-formularioclase.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.child5-1,.child5-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.child5-2 .btn{
+  background: #51d5fd;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px 50px;
+  letter-spacing: 2px;
+}
+
+
+.italic{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 66px;
+  font-weight: 900;
+  font-style:italic;
+  color: #51d5fd;
+}
+
+.bordeazul{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 66px;
+  font-weight: 900;
+  font-style:italic;
+  color: #E6E6E6;
+  opacity: 1;
+  -webkit-text-stroke: 2px #0099DD;
+}
+
 .fix-bottom {
   position: fixed;
   bottom: 0;
